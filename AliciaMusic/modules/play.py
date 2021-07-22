@@ -948,7 +948,7 @@ async def deezer(client: Client, message_: Message):
         url = songs.result[0].url
         artist = songs.result[0].artist
         duration = songs.result[0].duration
-        thumbnail = "https://telegra.ph/file/0e0509861103d84810678.jpg
+        thumbnail = "https://telegra.ph/file/0e0509861103d84810678.jpg"
 
     except:
         await res.edit("Found Literally Nothing, You Should Work On Your English!")
