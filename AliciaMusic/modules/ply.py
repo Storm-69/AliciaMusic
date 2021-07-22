@@ -8,11 +8,12 @@ from AliciaMusic.services.callsmusic import queues
 from AliciaMusic.services import converter
 from AliciaMusic.services.downloaders import youtube
 from AliciaMusic.modules import play
-from config import BOT_NAME as bn, DURATION_LIMIT
-from helpers.filters import command, other_filters
-from helpers.decorators import errors
-from helpers.errors import DurationLimitError
-from helpers.gets import get_url, get_file_name
+from AliciaMusic.config import BOT_NAME as bn
+from AliciaMusic.config import DURATION_LIMIT
+from AliciaMusic.helpers.filters import command, other_filters
+from AliciaMusic.helpers.decorators import errors
+from AliciaMusic.helpers.errors import DurationLimitError
+from AliciaMusic.helpers.gets import get_url, get_file_name
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 @Client.on_message(command("ply") & other_filters)
