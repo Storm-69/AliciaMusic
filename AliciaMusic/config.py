@@ -24,8 +24,8 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 que = {}
-SESSION_NAME = getenv("SESSION_NAME", "AQAv_Kqp7hmAoVovRRfLR8ijCeEcBf-u8yQYjgef9ElKv2cEO2hx5IOBg2lp5XsoV3wRChbe4ZNLlt_dHW9g_8YNTeJYg8QRLNAp1NW0iHpLjKYeH4eKmy26aLhBotRIFZemfE5gAZ3ZjOU1nyg-Nn5_sMNZOv0w-uusshRfD5qjMaCoswMMmqyXS6aA8z6SqSupmWR1pkI6mpHVxkPTKtetHUEfyhtc5AaDzkKOKk61n6zzD8mpBsx8Wj2KbsYcyWM_poIz1vj25nktj2qG9NIQ8WaXPKnz7d3_nMDOFIjXEezZZIk4a4cWwDxCWQKI6ais24dje49NR0WTg8BXTsLmcAiVAwA")
-BOT_TOKEN = getenv("BOT_TOKEN", "2035708565:AAH8L6b2fB09IjJ_lb1v0vEvXzWaw6Wu0Hc")
+SESSION_NAME = getenv("SESSION_NAME", "AQCN3FDdFWGi79VohQkPJWU9Nu6A6W9tdJvjDxGdvtH-YSZqNcb2D7vZiLX2S67Z-UYQRrs7glatqouFloTQyGeajwMwPn8-O1QnfdJRw7Cm96jdmKscimHT6gDvuxdWvkiH9u7753bwREv5V38bUIPFzd4hf3fBdvQVvbYIsBkUQV8IT_CpHupYj2cPXglMoPnH25zWDtFHug71p6mrw3BddS-fcmtxpCqdULvaju9KoDejW36ST6fRD6iGiTAj-gFXhYGo26Yw8v7fQESW9J9fLjAzzQYxAL7yUmGlnvyfSQIu_7hHUJxWLi66RvyCVXDcBuBvSc_AF-o-KIBpmpFRY1PwDwA")
+BOT_TOKEN = getenv("BOT_TOKEN", "1613196478:AAFXf2pnYrjW8yDOkKlWaIJg0Jtg2dkHNN8")
 BOT_NAME = getenv("BOT_NAME", "Alicia MusicBot")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "MafiaBot_Support")
 BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/c81a1be4c5aa4c7b009b7.jpg")
@@ -41,6 +41,6 @@ DURATION_LIMIT = int(getenv("DURATION_LIMIT", "10"))
 ARQ_API_KEY = getenv("ARQ_API_KEY", "DSCCEX-RQCOQV-RPBVBD-RAZLFC-ARQ")
 PMPERMIT = getenv("PMPERMIT", "https://telegra.ph/file/c81a1be4c5aa4c7b009b7.jpg")
 LOG_GRP = getenv("LOG_GRP", None)
-COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
+COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! *").split())
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
